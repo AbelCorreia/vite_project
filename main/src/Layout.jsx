@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import './Layout.css'
 
 const Layout = () => {
   return (
@@ -13,6 +14,9 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/input">Text</Link>
+          </li>
+          <li>
+            <Link to="/Quiz">Quiz</Link>
           </li>
         </ul>
       </nav>

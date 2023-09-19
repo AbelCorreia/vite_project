@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './input.css'
 
 function Text() {
     const [text, setText] = useState("");
